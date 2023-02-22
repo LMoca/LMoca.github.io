@@ -1,0 +1,43 @@
+/* Scroller styling */
+.scroller {
+  /* Settings below for About Section */
+  margin-bottom: 1em;
+  height: 2em;
+  overflow: hidden;
+
+  /* Settings below for Home Section */
+  margin-bottom: 1em;
+  height: 2em;
+  overflow: hidden;
+}
+.scroller > h4 {
+  position: relative;
+  animation: slide 12s infinite;
+  font-weight: bold;
+}
+@keyframes slide {
+  0% {
+    top: 0em;
+  }
+  14% {
+    top: -1.5em;
+  }
+  28% {
+    top: -3em;
+  }
+  43% {
+    top: -4.5em;
+  }
+  57% {
+    top: -6em;
+  }
+  71% {
+    top: -7.5em;
+  }
+  85%{
+    top: -9em;
+  }
+  100% {
+    top: -10.6em;
+  }
+}
