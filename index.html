@@ -21,6 +21,7 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet">
         <link href="css/about.css" rel="stylesheet">
+        <link href="css/testimonial.css" rel="stylesheet">
     </head>
 
     <body id="page-top">
@@ -46,40 +47,40 @@
 
         <!-- Header -->
         <header class="masthead bg-dark text-white text-center" id="home">
-            <div class="d-flex">
-                <img src="assets/me.png" style="padding-left: 5em;"/>
-                
-                <div class="container d-flex align-items-center flex-column" style="justify-content: center;">
-                    <h1 class="masthead-heading text-uppercase mb-0">Luigi F. Moca</h1>
-                    
-                    <!-- Icon Divider-->
-                    <div class="divider-custom divider-light">
-                        <div class="divider-custom-line"></div>
-                    </div>
-                    <!-- Masthead Subheading-->
-                    <p class="masthead-subheading font-weight-light mb-0" style="padding-bottom: 1em;">Electrical Computer Engineer | Programmer</p>
-                    <!-- Animation Here -->
-                    <div class="text-center scroller">
-                        <h4 class="aboutTextAppear">2018 Purdue Graduate, West Lafayette</h4>
-                        <h4 class="aboutTextAppear">Engineering Enthusiasm</h4>
-                        <h4 class="aboutTextAppear">Passionate Teacher</h4>
-                        <h4 class="aboutTextAppear">Eager Learner</h4>
-                        <h4 class="aboutTextAppear">5k Runner (PB 21:41)</h4>
-                        <h4 class="aboutTextAppear">Persistent Powerhouse</h4>
-                        <h4 class="aboutTextAppear">Team Player</h4>
-                        <h4 class="aboutTextAppear">2018 Purdue Graduate, West Lafayette</h4>
-                    </div>
+            <div class="d-flex container">
+                <div class="row" style="flex-wrap: nowrap;">
+                    <img class="meImg" src="assets/me.png">
 
-                    <!-- Resume Button -->
-                    <div class="text-center" style="margin-top: 1em;">
-                        <a href="Luigi Moca.docx" class="btn btn-xl btn-outline-light">
-                            <i class="fas fa-download me-2"></i>Resume
-                        </a>
+                    <div class="container d-flex align-items-center flex-column" style="justify-content: center; width: 51%;">
+                        <h1 class="masthead-heading text-uppercase mb-0">Luigi F. Moca</h1>
+                        
+                        <!-- Icon Divider-->
+                        <div class="divider-custom divider-light">
+                            <div class="divider-custom-line"></div>
+                        </div>
+                        <!-- Masthead Subheading-->
+                        <p class="masthead-subheading font-weight-light mb-0" style="padding-bottom: 1em;">Electrical Computer Engineer | Programmer</p>
+                        <!-- Animation Here -->
+                        <div class="text-center scroller">
+                            <h4 class="aboutTextAppear">2018 Purdue Graduate</h4>
+                            <h4 class="aboutTextAppear">Engineering Enthusiasm</h4>
+                            <h4 class="aboutTextAppear">Passionate Teacher</h4>
+                            <h4 class="aboutTextAppear">Eager Learner</h4>
+                            <h4 class="aboutTextAppear">5k Runner (PB 21:41)</h4>
+                            <h4 class="aboutTextAppear">Persistent Powerhouse</h4>
+                            <h4 class="aboutTextAppear">Team Player</h4>
+                            <h4 class="aboutTextAppear">2018 Purdue Graduate</h4>
+                        </div>
+    
+                        <!-- Resume Button -->
+                        <div class="text-center" style="margin-top: 1em;">
+                            <a href="Luigi Moca.docx" class="btn btn-xl btn-outline-light">
+                                <i class="fas fa-download me-2"></i>Resume
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <!-- <div class="container d-flex align-items-center flex-column"></div> -->
         </header>
 
         <!-- About -->
@@ -200,9 +201,9 @@
                 </div>
             </div>
         </section>
-        
+
         <!-- Testimonials Section -->
-        <section class="page-section bg-dark text-white" style="display: grid; justify-content: center;" id="reviews">
+        <section class="page-section bg-dark text-white" id="reviews">
             <div class="container">
                 <!-- Contact Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Testimonials</h2>
@@ -212,41 +213,39 @@
                 </div>
                 <!-- Contact Section Form-->
                 <div class="row justify-content-center">
-                    <div class="d-flex">
-                        <!-- Paul Mullin -->
-                        <div class="card bg-dark text-white" style="margin: 1em; width: 25rem; box-shadow: 1px 1px 10px 2px rgba(0,0,0, 0.4);">
-                            <img class="card-img-top" src="https://media.licdn.com/dms/image/C5603AQEC-coaNm2jXg/profile-displayphoto-shrink_200_200/0/1517762878062?e=1680739200&v=beta&t=WUL4OVuxedIRnR_r0Y9EhpezAELeMwyOvZkp_SpPaLU" alt="Paul Mullin">
-                            <div class="card-body">
-                              <h4 class="card-title text-center">Paul Mullin</h4>
-                              <p class="lead mb-0 text-center">Chief Engineering Manager</p>
-                              <div class="divider-custom divider-custom-line divider-light"><div class="divider-custom-line"></div></div>
-                              <p class="card-text text-center">"Loved your enthusiasm, drive, and passion for technology & programming."</p>
-                              <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/mullinfarm" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                            </div>
+                    <!-- Paul Mullin -->
+                    <div class="card bg-dark text-white testimonial">
+                        <img class="card-img-top" src="https://media.licdn.com/dms/image/C5603AQEC-coaNm2jXg/profile-displayphoto-shrink_200_200/0/1517762878062?e=1680739200&v=beta&t=WUL4OVuxedIRnR_r0Y9EhpezAELeMwyOvZkp_SpPaLU" alt="Paul Mullin">
+                        <div class="card-body">
+                          <h4 class="card-title text-center">Paul Mullin</h4>
+                          <p class="lead mb-0 text-center">Chief Engineering Manager</p>
+                          <div class="divider-custom divider-custom-line divider-light"><div class="divider-custom-line"></div></div>
+                          <p class="card-text text-center">"Loved your enthusiasm, drive, and passion for technology & programming."</p>
+                          <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/mullinfarm" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-linkedin-in"></i></a>
                         </div>
+                    </div>
 
-                        <!-- Connor Silva -->
-                        <div class="card bg-dark text-white" style="margin: 1em; width: 25rem; box-shadow: 1px 1px 10px 2px rgba(0,0,0, 0.4);">
-                            <img class="card-img-top" src="https://media.licdn.com/dms/image/C4E03AQG3OzITe2W-bg/profile-displayphoto-shrink_800_800/0/1563891231638?e=2147483647&v=beta&t=rIBLoNz29Gvhs_95fwo5md7Ju6e4GoGz4XF25ygA8LM" alt="Connor Silva">
-                            <div class="card-body">
-                              <h4 class="card-title text-center">Connor Silva</h4>
-                              <h5 class="lead mb-0 text-center">Design Engineer II</h5>
-                              <div class="divider-custom divider-custom-line divider-light"><div class="divider-custom-line"></div></div>
-                              <p class="card-text text-center">"A really solid member of the team."</p>
-                              <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/connor-silva-cs10" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                            </div>
+                    <!-- Connor Silva -->
+                    <div class="card bg-dark text-white testimonial">
+                        <img class="card-img-top" src="https://media.licdn.com/dms/image/C4E03AQG3OzITe2W-bg/profile-displayphoto-shrink_800_800/0/1563891231638?e=2147483647&v=beta&t=rIBLoNz29Gvhs_95fwo5md7Ju6e4GoGz4XF25ygA8LM" alt="Connor Silva">
+                        <div class="card-body">
+                          <h4 class="card-title text-center">Connor Silva</h4>
+                          <h5 class="lead mb-0 text-center">Design Engineer II</h5>
+                          <div class="divider-custom divider-custom-line divider-light"><div class="divider-custom-line"></div></div>
+                          <p class="card-text text-center">"A really solid member of the team."</p>
+                          <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/connor-silva-cs10" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-linkedin-in"></i></a>
                         </div>
+                    </div>
 
-                        <!-- Joseph Douglas -->
-                        <div class="card bg-dark text-white" style="margin: 1em; width: 25rem; box-shadow: 1px 1px 10px 2px rgba(0,0,0, 0.4);">
-                            <img class="card-img-top" src="https://media.licdn.com/dms/image/C4E03AQGuloumvf3wqg/profile-displayphoto-shrink_200_200/0/1599859974551?e=1681344000&v=beta&t=NGP-wbvm2mAAaJpMRVHpPfVJn--bvrEyU4GA8pYRgSY" alt="Joseph Douglas">
-                            <div class="card-body">
-                              <h4 class="card-title text-center">Joseph Douglas</h4>
-                              <p class="lead mb-0 text-center">Jr. Embedded Firmware Engineer</p>
-                              <div class="divider-custom divider-custom-line divider-light"><div class="divider-custom-line"></div></div>
-                              <p class="card-text text-center">"A bright, amazing, high-quality, multifaceted engineer and programmer."</p>
-                              <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/joseph-douglas937/" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                            </div>
+                    <!-- Joseph Douglas -->
+                    <div class="card bg-dark text-white testimonial">
+                        <img class="card-img-top" src="https://media.licdn.com/dms/image/C4E03AQGuloumvf3wqg/profile-displayphoto-shrink_200_200/0/1599859974551?e=1681344000&v=beta&t=NGP-wbvm2mAAaJpMRVHpPfVJn--bvrEyU4GA8pYRgSY" alt="Joseph Douglas">
+                        <div class="card-body">
+                          <h4 class="card-title text-center">Joseph Douglas</h4>
+                          <p class="lead mb-0 text-center">Jr. Embedded Firmware Engineer</p>
+                          <div class="divider-custom divider-custom-line divider-light"><div class="divider-custom-line"></div></div>
+                          <p class="card-text text-center">"A bright, amazing, high-quality, multifaceted engineer and programmer."</p>
+                          <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/joseph-douglas937/" rel="noopener noreferrer" target="_blank"><i class="fab fa-fw fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>
